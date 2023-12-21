@@ -11,9 +11,9 @@ export const Footer = () => {
                     <Button size="sm" variant="ghost">
                         Privacy and Policy
                     </Button>
-                    <Button size="sm" variant="ghost">
-                        Terms and Conditions
-                    </Button>
+                    <Button size="sm" variant="ghost">             
+                        Terms and Conditions 
+                    </Button>                 
                 </div>
             </div>
 

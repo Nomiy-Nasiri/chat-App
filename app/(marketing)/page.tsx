@@ -19,6 +19,7 @@ export const textFont = Poppins({
         "700"
     ]
 })
+
 // text-3xl md:text-6xl text-center text-neutral-800 mb-6
 
 const marketingPage = () => {
