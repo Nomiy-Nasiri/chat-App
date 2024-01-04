@@ -10,7 +10,7 @@ export const DashboardNavbar = () => {
             <div className=" flex items-center gap-x-4">
                 <div className="hidden md:flex">
                     <Logo />
-                </div>
+                </div>                  
                 <Button variant="primary" size="sm" className="rounded hidden md:block h-auto py-1.5 px-2">
                     create
                 </Button>

@@ -7,7 +7,7 @@ const dashboardLayout = ({children}:{
 
         <div className="h-full">
             <DashboardNavbar/>
-            {children}
+            {children}                            
         </div>
      )
 }

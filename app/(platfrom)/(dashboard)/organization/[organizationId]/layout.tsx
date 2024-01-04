@@ -6,5 +6,7 @@ return(
         </div>
     </main>
 )
+
+        
 }
 export default organizationPage

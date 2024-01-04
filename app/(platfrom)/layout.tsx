@@ -4,7 +4,7 @@ const PlatfromLayout = ({ children }: { children: React.ReactNode }) => {
 return(
     <ClerkProvider>
         {children}
-    </ClerkProvider>
+    </ClerkProvider>         
 )
 }
 export default PlatfromLayout
