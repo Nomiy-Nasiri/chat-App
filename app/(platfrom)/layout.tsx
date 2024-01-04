@@ -7,4 +7,4 @@ return(
     </ClerkProvider>         
 )
 }
-export default PlatfromLayout
+export default PlatfromLayout         

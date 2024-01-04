@@ -5,6 +5,6 @@ export default function (){
         hidePersonal
         afterSelectOrganizationUrl="/organization/:id"
         afterCreateOrganizationUrl="/organization/:id"
-        />
+        />                 
     )
 }
