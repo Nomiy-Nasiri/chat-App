@@ -4,9 +4,9 @@ const dashboardLayout = ({children}:{
   children : React.ReactNode
 }) => {
      return(
-
+                
         <div className="h-full">
-            <DashboardNavbar/>
+            <DashboardNavbar/>      
             {children}                            
         </div>
      )
