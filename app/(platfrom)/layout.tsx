@@ -1,4 +1,4 @@
-import { ClerkProvider } from "@clerk/nextjs"
+import { ClerkProvider } from "@clerk/nextjs"          
 
 const PlatfromLayout = ({ children }: { children: React.ReactNode }) => {
 return(

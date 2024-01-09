@@ -1,6 +1,6 @@
 const OrganizationId =() =>{
     return(
-        <div>
+        <div>            
             organiation                   
         </div>
     )
