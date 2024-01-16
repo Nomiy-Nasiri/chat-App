@@ -33,7 +33,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "app/(platfrom)/(dashboard)/organization/[organizationId]/_componesnts/org-org"
+    "app/(platfrom)/(dashboard)/organization/[organizationId]/_components/org-org"
   ],
   "exclude": [
     "node_modules"

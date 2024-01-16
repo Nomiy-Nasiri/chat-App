@@ -1,3 +1,5 @@
+import { OrgControl } from "./_components/select-org"
+
 const OrganizationPage = ({children}: {children : React.ReactNode}) => {
 return(
     <main className="pt-20 md:pt-24 px-4 max-w-6xl 2xl:max-w-screen-xl mx-auto" >
@@ -5,6 +7,7 @@ return(
             <div className="w-64  w-0 hidden md:block">
 {/* sidebar */}
             </div>
+            <OrgControl/>
             {children}
         </div>
     </main>
