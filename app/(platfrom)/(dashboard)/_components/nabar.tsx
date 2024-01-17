@@ -1,9 +1,9 @@
 import Logo from "@/components/logo"
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button"         
 import { OrganizationSwitcher, UserButton } from "@clerk/nextjs"
-import { Plus } from "lucide-react"
+import { Plus } from "lucide-react"          
 
-export const DashboardNavbar = () => {
+export const DashboardNavbar = () => {          
     return (
         <nav className="fixed px-4 z-50 top-0 w-full h-14 bg-white border-b shadow-sm flex items-center">
             {/* for mobile  */}
@@ -23,11 +23,11 @@ export const DashboardNavbar = () => {
             hidePersonal
             afterCreateOrganizationUrl='/organizationUrl/:id'
             afterLeaveOrganizationUrl="/select-org"
-            afterSelectOrganizationUrl="/organization/:id"
+            afterSelectOrganizationUrl="/organization/:id"              
             appearance={{
                 elements:{
                     rootBox:{
-                        display: "flex",
+                        display: "flex",          
                         justifyContent:"center",
                         alignContent: "center"
                     },

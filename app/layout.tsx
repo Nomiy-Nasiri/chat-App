@@ -6,29 +6,29 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-//   title: {
-//     default: siteConfig.name,
-//     template : ` %s | ${siteConfig.name}`,
-//   },
-title: "Gapshap chat",
-//  {
+  //   title: {
+  //     default: siteConfig.name,
+  //     template : ` %s | ${siteConfig.name}`,
+  //   },
+  title: "Gapshap chat",
+  //  {
   // default: siteConfig.name,
   // template: `%s | ${siteConfig.name}`,
-// },
+  // },
   // description: siteConfig.description  
-   description:"dummy descripton",
-   icons:[
-   {
-    url : "/logo.svg",
-    href : "/logo.svg"
-   }]
+  description: "dummy descripton",
+  icons: [
+    {
+      url: "/logo.svg",
+      href: "/logo.svg"
+    }]
 }
 
 
 
 export default function RootLayout({
   children,
-}: { 
+}: {
   children: React.ReactNode
 }) {
   return (

@@ -1,7 +1,7 @@
-const OrganizationId =() =>{
-    return(
-        <div>            
-            organiation                   
+const OrganizationId = () => {
+    return (
+        <div>
+            organiation
         </div>
     )
 }
