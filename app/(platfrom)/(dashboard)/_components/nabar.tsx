@@ -3,12 +3,12 @@ import { Button } from "@/components/ui/button"
 import { OrganizationSwitcher, UserButton } from "@clerk/nextjs"
 import { Plus } from "lucide-react"          
 
-export const DashboardNavbar = () => {          
+export const DashboardNavbar = () => {                                
     return (
-        <nav className="fixed px-4 z-50 top-0 w-full h-14 bg-white border-b shadow-sm flex items-center">
+        <nav className="fixed px-4 z-50 top-0 w-full h-14 bg-white border-b shadow-sm flex items-center">           
             {/* for mobile  */}
             <div className=" flex items-center gap-x-4">
-                <div className="hidden md:flex">
+                <div className="hidden md:flex">                       
                     <Logo />
                 </div>                  
                 <Button variant="primary" size="sm" className="rounded hidden md:block h-auto py-1.5 px-2">

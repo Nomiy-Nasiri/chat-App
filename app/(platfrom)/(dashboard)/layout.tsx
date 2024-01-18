@@ -6,9 +6,9 @@ const dashboardLayout = ({ children }: {
   return (
 
     <div className="h-full">
-      <DashboardNavbar />
-      {children}
-    </div>
+      <DashboardNavbar />        
+      {children}       
+    </div>    
   )
-}
+}                      
 export default dashboardLayout

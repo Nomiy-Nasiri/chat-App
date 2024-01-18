@@ -46,7 +46,7 @@ export const Sidebar = ({ storageKey = "t-sidebar-state" }: SidebarProps) => {
                 </span>
                 <Button
                     asChild
-                    type="button"
+                    type="button"       
                     size="icon"
                     variant="ghost"
                     className="ml-auto"
